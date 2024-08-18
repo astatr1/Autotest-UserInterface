@@ -1,0 +1,4 @@
+{
+  "base_url": "https://userinyerface.com/",
+  "test_data_path": [ "Integration", "Resources", "test_data.json" ]
+}

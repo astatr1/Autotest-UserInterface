@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aquality.Selenium" Version="4.17.0" />
+    <PackageReference Include="AutoItX.Dotnet" Version="3.3.14.5" />
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+    <PackageReference Include="NUnit" Version="3.14.0" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AutoItX3.Assembly">
+      <HintPath>..\..\..\..\..\..\Users\user\.nuget\packages\autoitx.dotnet\3.3.14.5\lib\AutoItX3.Assembly.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\dotnet\net8.0\runtime\shared\Microsoft.WindowsDesktop.App\8.0.5\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="NUnit.Framework" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Log\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\user\.nuget\packages\autoitx.dotnet\3.3.14.5\build\AutoItX3_x64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\user\.nuget\packages\autoitx.dotnet\3.3.14.5\build\AutoItX3_x64.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\user\.nuget\packages\autoitx.dotnet\3.3.14.5\build\AutoItX3.dll" />
+  </ItemGroup>
+
+</Project>

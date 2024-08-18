@@ -1,0 +1,17 @@
+{
+  "check_timer_start_time_test": {
+    "start_timer_value": "00:00:00"
+  },
+  "registration_profile_test": {
+    "password_length": 10,
+    "name_email_length": 8,
+    "domain_name_length": 5,
+    "count_selected_interests": 3,
+    "path_avatar_file": [ "Integration", "Resources", "avatar.png" ]
+  },
+  "hidden_help_form_test": {
+    "min_height_help_form": 10,
+    "unit_measure": "px",
+    "dimension_parameter": "height"
+  }
+}
