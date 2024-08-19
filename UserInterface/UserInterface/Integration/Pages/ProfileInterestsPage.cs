@@ -47,11 +47,6 @@ namespace UserInterface.Integration.Pages
             UploadAvatarProfileLink.Click();
         }
 
-        public void UploadProfileImage(string[] path)
-        {
-            var avatarPath = PathHelper.GetFullPath(path);
-            FileDialogHelper.UploadFile(avatarPath);
-        }
 
         public void ClickNextRegistrationPageButton()
         {
